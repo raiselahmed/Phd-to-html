@@ -1,0 +1,313 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav .navbar-barand{
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+#nav .nav-link{
+    font-size: 18px;
+    color: #ffffff;
+} 
+
+nav.navbar.navbar-expand-lg {
+    padding: 0;
+}
+
+
+/* bnner */
+#bnner{
+    /* background: url(/Images/construction-website-weteraytaetemplate-design.jpg) no-repeat center center / cover;
+    object-fit: fill; */
+    background-image: url(/Images/construction-website-weteraytaetemplate-design.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   
+}
+
+.card-img-overlay h2{
+    font-size: 53px;
+}
+
+
+.border-btn2 a {
+    font-size: 14px;
+    color: #ffff;
+    background-color: #ffae00;
+  
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.border-btn2 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 179, 193);
+}
+
+.slider-content h2{
+    font-size: 52px;
+    color: #ffffff;
+}
+
+
+/* card */
+.titleCenter{
+    font-size: 38px;
+}
+.card-img{
+    border-radius: 0;
+}
+
+.about-meta{
+    font-size: 19px;
+    font-weight: bold;
+}
+.textw{
+    font-size: 16px;
+    padding-bottom: 6px;
+    margin: 0!important;
+    padding: 10px;
+ 
+}
+
+.btom{
+    color: #ffae00;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+/* banner2 */
+
+#bnner2 {
+    background-image: url(/Images/bnner@.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center center;
+   padding: 140px 0;
+}
+
+.pading p{
+    font-size: 32px;
+}
+.pading{
+    padding: 44px 35px;
+    background: rgba(27, 25, 26, 0.77);
+    color: #ffffff;
+}
+
+
+
+/* hver card */
+.our-projct .card{
+    overflow: hidden;
+}
+.our-projct .card .card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ }
+ .our-projct .hver-ttile{
+    background: #ffae00;
+    color: #fff;
+    padding: 4px 14px;
+ }
+ .our-projct .hver-ttile p{
+    font-size: 14px;
+    color: #fff;
+ }
+ .our-projct .card .card-body{
+     position: absolute;
+     height: 100%;
+     width: 100%;
+     background: rgba(0,0,0,0.5);
+     display: flex;
+     justify-content: start;
+     align-items: flex-end;
+     color: #fff;
+     bottom: -100%;
+     transition: .5s;
+ }
+ 
+ .our-projct .card:hover .card-body{
+ bottom: 0;
+ }
+
+
+ /* form */
+
+ 
+#form-section {
+    background-image: url(/Images/bnner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+ #form-section h3.text-center {
+    font-size: 34px;
+    color: #fff;
+}
+
+.border-btn3 a {
+    font-size: 14px;
+    color: #ffff;
+    background-color: #ffae00;
+  
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.border-btn3 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 179, 193);
+}
+
+
+#form-section::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    bottom: 0;
+    z-index: -1;
+}
+
+
+/* latest blog */
+
+.ltest-blog .bdy-content{
+    margin-top: -60px;
+    background: #f7f7f7;
+}
+
+.border-btn4 a {
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ffae00;
+    padding: 2px 24px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.border-btn3 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 179, 193);
+}
+
+
+.border-btn5 a {
+    font-size: 14px;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #ffae00;
+    padding: 2px 24px;
+    display: inline-block;
+    border-radius: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: -50px;
+}
+
+.border-btn5 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 179, 193);
+}
+
+.ltest-blog .tpdate{
+    position: absolute;
+    top: -15px;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.border-btn6 a {
+    font-size: 14px;
+    color: #ffff;
+    background-color: #ffae00;
+  
+    padding: 12px 30px;
+    display: inline-block;
+    border-radius: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.border-btn5 a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(34, 179, 193);
+}
+
+/* contact */
+
+.lgo_menu h3{
+    font-size: 34px;
+    font-weight: 900;
+}
+
+/* contact section */
+
+.main-menu span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+footer .ico i{
+    color: #3e526b;
+}
+/* main fotter */
+
+.main-footer{
+    background: #232f3e;
+    color: #fff;
+}
